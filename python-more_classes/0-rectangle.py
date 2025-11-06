@@ -3,6 +3,7 @@
 This the second class activity
 """
 
+
 class Rectangle:
     """
     Created empty Rectangle class
