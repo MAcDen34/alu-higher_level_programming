@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
 Defines a Square class with size validation and area calculation.
-""""
+"""
 
 
 class Square:
@@ -27,10 +27,10 @@ class Square:
         self.__size = size
 
     def area(self):
-        """
-        Calculates the area of the square.
+     """
+        Calculates and returns the area of the square.
 
         Returns:
-            int: The area of the square.
+            int: The area of the square (size * size).
         """
-        return self.__size ** 2
+     return self.__size ** 2
