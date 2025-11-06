@@ -3,6 +3,7 @@
 Defines a Square class with size property and area calculation.
 """
 
+
 class Square:
     """
     Represents a square with a given size.
