@@ -8,7 +8,7 @@ class Square:
     """
     Represents a square with a given size and position.
     """
-    
+
     def __init__(self, size=0, position=(0, 0)):
         """
         Initializes the square with a specific size and position.
@@ -16,10 +16,6 @@ class Square:
         Args:
             size (int): The size of the square (default is 0).
             position (tuple): The position of the square (default is (0, 0)).
-
-        Raises:
-            TypeError: If size is not an integer or position is not a tuple of 2 positive integers.
-            ValueError: If size is less than 0.
         """
         self.size = size
         self.position = position
@@ -74,8 +70,8 @@ class Square:
             TypeError: If value is not a tuple of 2 positive integers.
         """
         if (not isinstance(value, tuple) or len(value) != 2 or
-            not all(isinstance(num, int) for num in value) or
-            not all(num >= 0 for num in value)):
+                not all(isinstance(num, int) for num in value) or
+                not all(num >= 0 for num in value)):
             raise TypeError("position must be a tuple of 2 positive integers")
         self.__position = value
 
