@@ -10,7 +10,6 @@ class Square:
     """
 
     def __init__(self, size):
-
         """
         Initializes the square with a specific size.
         """     
