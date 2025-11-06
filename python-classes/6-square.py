@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
-Defines a Square class with size, position properties, area calculation, and printing.
+Defines a Square class with size, 
+position properties, area calculation, and printing.
 """
 
 
