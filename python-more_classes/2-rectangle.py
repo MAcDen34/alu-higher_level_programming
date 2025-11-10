@@ -1,5 +1,6 @@
 #!/usr/bin//python3
-"""Defines a rectangle with width and height attributes
+"""
+Defines a rectangle with width and height attributes
 """
 
 
