@@ -3,6 +3,7 @@
 Defines a rectangle with width and height attributes
 """
 
+
 class Rectangle:
     """
 initialize the Rectangle class with width and height attributes
@@ -55,6 +56,7 @@ initialize the Rectangle class with width and height attributes
         """
         Calculate and return the area of the rectangle.
         """
+        
         return self.__width * self.__height
     def perimeter(self):
         """
