@@ -69,10 +69,9 @@ initialize the Rectangle class with width and height attributes
         """
         if self.__width == 0 or self.__height == 0:
             return ""
-        
         rectangle_str = []
         for _ in range(self.__height):
-            rectangle_str += "#" * self.__width + "\n"
+            rectangle_str.append("#" * self.__width)
         return "\n".join(rectangle_str)
 
     def __repr__(self):
