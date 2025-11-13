@@ -56,7 +56,7 @@ initialize the Rectangle class with width and height attributes
         Calculate and return the area of the rectangle.
         """
         return self.__width * self.__height
-    def perimenter(self):
+    def perimeter(self):
         """
         Calculate and return the perimeter of the rectangle.
         """
@@ -75,7 +75,7 @@ initialize the Rectangle class with width and height attributes
             rectangle_str += "#" * self.__width + "\n"
         return "\n".join(rectangle_str)
 
-        def __repr__(self):
+    def __repr__(self):
             """
             return official string representation to recreate the object
             """
